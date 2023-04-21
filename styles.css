@@ -15,7 +15,28 @@ body {
   color: #324e63;
 }
 
+main {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  padding: 50px 20px;
+  padding-top: 100px;
+  display: flex;
+  background-image: linear-gradient(-20deg, #ff2846 0%, #449bff 100%);
+}
+
 a,
 a:hover {
   text-decoration: none;
+}
+
+.card {
+  width: 100%;
+  min-height: 460px;
+  box-shadow: 0 8px 60px -10px rgba(13, 28, 39, 0.6);
+  margin: auto;
+  background: #fff;
+  border-radius: 12px;
+  max-width: 700px;
+  position: relative;
 }
