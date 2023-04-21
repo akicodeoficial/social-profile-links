@@ -29,7 +29,7 @@ a:hover {
   text-decoration: none;
 }
 
-.card {
+div.card {
   width: 100%;
   min-height: 460px;
   box-shadow: 0 8px 60px -10px rgba(13, 28, 39, 0.6);
@@ -40,7 +40,7 @@ a:hover {
   position: relative;
 }
 
-.card-img {
+div.card-img {
   width: 150px;
   height: 150px;
   margin-left: auto;
@@ -59,4 +59,31 @@ img {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+}
+
+div.card-content {
+  margin-top: -35px;
+  text-align: center;
+  padding: 0 20px;
+  padding-bottom: 40px;
+  transition: all 0.3s;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #ff4444;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
 }
